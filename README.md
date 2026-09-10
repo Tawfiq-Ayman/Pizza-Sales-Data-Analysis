@@ -97,12 +97,12 @@ The project includes SQL queries for:
 
 ### SQL Query File
 
-👉 **[View SQL Queries](./SQL/Pizza_Sales_SQL_Queries.sql)**
+👉 **[View SQL Queries]([./SQL/Pizza_Sales_SQL_Queries.sql](https://github.com/Tawfiq-Ayman/Pizza-Sales-Data-Analysis/blob/main/Pizza%20DB%20SQLQuery.sql))**
 
 ### SQL Analysis Report
 
 👉 **[View SQL Server Analysis
-Report](./Reports/Pizza_Sales_SQL_Queries.pdf)**
+Report]([./Reports/Pizza_Sales_SQL_Queries.pdf](https://github.com/Tawfiq-Ayman/Pizza-Sales-Data-Analysis/blob/main/PIZZA%20SALES%20SQL%20QUERIES.pdf))**
 
 The report contains the SQL queries together with screenshots of the
 corresponding SQL Server outputs.
@@ -114,7 +114,7 @@ corresponding SQL Server outputs.
 The Excel workbook contains the analysis and dashboard components used
 in the project.
 
-👉 **[Open Excel Analysis](./Excel/Pizza_Sales_Analysis.xlsx)**
+👉 **[Open Excel Analysis]([./Excel/Pizza_Sales_Analysis.xlsx](https://github.com/Tawfiq-Ayman/Pizza-Sales-Data-Analysis/blob/main/Pizza%20Data%20Analysis.xlsx))**
 
 The workbook includes:
 
@@ -132,7 +132,7 @@ The workbook includes:
 The dashboard provides a visual summary of the main business KPIs and
 sales trends.
 
-![Pizza Sales Dashboard](./Dashboard/Pizza_Sales_Dashboard.png)
+![Pizza Sales Dashboard]([./Dashboard/Pizza_Sales_Dashboard.png](https://github.com/Tawfiq-Ayman/Pizza-Sales-Data-Analysis/blob/main/Dashboard%20image.png))
 
 ### Key KPIs
 
@@ -214,19 +214,19 @@ Pizza-Sales-Data-Analysis/
   --------------------------------------------------------------------------------------------
   File                                                     Description
   -------------------------------------------------------- -----------------------------------
-  [Excel Analysis](./Excel/Pizza_Sales_Analysis.xlsx)      Excel workbook containing the
+  [Excel Analysis]([./Excel/Pizza_Sales_Analysis.xlsx](https://github.com/Tawfiq-Ayman/Pizza-Sales-Data-Analysis/blob/main/Pizza%20Data%20Analysis.xlsx))      Excel workbook containing the
                                                            analysis and dashboard
 
-  [SQL Queries](./SQL/Pizza_Sales_SQL_Queries.sql)         SQL Server queries used for the
+  [SQL Queries]([./SQL/Pizza_Sales_SQL_Queries.sql](https://github.com/Tawfiq-Ayman/Pizza-Sales-Data-Analysis/blob/main/Pizza%20DB%20SQLQuery.sql))         SQL Server queries used for the
                                                            business requirements
 
   [SQL Analysis                                            SQL queries with SQL Server output
-  Report](./Reports/Pizza_Sales_SQL_Queries.pdf)           screenshots
+  Report]([./Reports/Pizza_Sales_SQL_Queries.pdf](https://github.com/Tawfiq-Ayman/Pizza-Sales-Data-Analysis/blob/main/PIZZA%20SALES%20SQL%20QUERIES.pdf))           screenshots
 
   [Raw                                                     Original pizza sales dataset
-  Data](./Data/Original%20raw%20data%20for%20pizza.xlsx)   
+  Data]([./Data/Original%20raw%20data%20for%20pizza.xlsx](https://github.com/Tawfiq-Ayman/Pizza-Sales-Data-Analysis/blob/main/Original%20raw%20data%20for%20pizza.xlsx))   
 
-  [Dashboard Image](./Dashboard/Pizza_Sales_Dashboard.png) Final dashboard preview
+  [Dashboard Image]([./Dashboard/Pizza_Sales_Dashboard.png](https://github.com/Tawfiq-Ayman/Pizza-Sales-Data-Analysis/blob/main/Dashboard%20image.png)) Final dashboard preview
   --------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------
@@ -265,4 +265,4 @@ development**.
 ## 🔗 Connect With Me
 
 **LinkedIn:** [Tawfiq
-Ayman](https://www.linkedin.com/in/tawfiq-ayman-a79a023b9)
+Ayman](www.linkedin.com/in/tawfiq-ayman-a79a023b9)
