@@ -1,117 +1,192 @@
-# Pizza Sales Data Analysis | Excel & SQL Server
+# 🍕 Pizza Sales Data Analysis
 
-## Project Overview
+An end-to-end **Pizza Sales Data Analysis** project using **SQL Server**
+and **Microsoft Excel** to analyze sales performance, identify business
+trends, validate results, and build an interactive dashboard.
 
-This portfolio project analyzes **Pizza Sales data for 2015** using **Microsoft SQL Server** and **Microsoft Excel**.
+## 📊 Project Overview
 
-The objective was to transform raw sales data into meaningful business insights, validate analytical results, and build an interactive Excel dashboard for exploring sales performance.
+This project analyzes pizza sales data for **2015** and focuses on
+business KPIs, sales trends, product/category performance, and customer
+purchasing patterns.
 
-## Business Requirements
+The analysis was completed using two complementary approaches:
 
-The analysis addresses the following key business questions:
+-   **SQL Server** --- querying the data and answering the business
+    requirements with SQL.
+-   **Microsoft Excel** --- data analysis, Pivot Tables, Pivot Charts,
+    KPI calculations, and interactive dashboard development.
+
+A key part of the project was **cross-validation**: SQL Server results
+were compared with the Excel Pivot Tables/KPIs to verify that the
+calculations and analysis were consistent.
+
+------------------------------------------------------------------------
+
+## 🎯 Business Requirements
 
 ### KPIs
-- Total Revenue
-- Average Order Value
-- Total Pizzas Sold
-- Total Orders
-- Average Pizzas Per Order
 
-### Analysis & Visualizations
-- Daily Trend for Total Orders
-- Hourly Trend for Total Orders
-- Percentage of Sales by Pizza Category
-- Percentage of Sales by Pizza Size
-- Total Pizzas Sold by Pizza Category
-- Top 5 Best Sellers by Total Pizzas Sold
-- Bottom 5 Worst Sellers by Total Pizzas Sold
+1.  **Total Revenue**
+2.  **Average Order Value**
+3.  **Total Pizzas Sold**
+4.  **Total Orders**
+5.  **Average Pizzas Per Order**
 
-## Tools Used
+### Charts & Analysis
 
-- **Microsoft SQL Server** — data querying, KPI calculations, business analysis, and result validation
-- **Microsoft Excel** — Pivot Tables, Pivot Charts, KPI analysis, data visualization, and interactive dashboard
+1.  Daily Trend for Total Orders
+2.  Hourly Trend for Total Orders
+3.  Percentage of Sales by Pizza Category
+4.  Percentage of Sales by Pizza Size
+5.  Total Pizzas Sold by Pizza Category
+6.  Top 5 Best Sellers by Total Pizzas Sold
+7.  Bottom 5 Worst Sellers by Total Pizzas Sold
 
-## Project Workflow
+------------------------------------------------------------------------
 
-```text
+## 🛠️ Tools Used
+
+-   **Microsoft SQL Server**
+-   **Microsoft Excel 2024**
+-   Pivot Tables
+-   Pivot Charts
+-   Excel Dashboard
+-   SQL Queries
+-   Data Validation / Cross-checking
+
+------------------------------------------------------------------------
+
+## 🔄 Project Workflow
+
+``` text
 Business Requirements
         ↓
 Raw Pizza Sales Data
         ↓
-SQL Server
+SQL Server Data Analysis
         ↓
-SQL Queries & Analysis
+SQL Query Results
         ↓
-Result Validation
+Excel Analysis & Pivot Tables
         ↓
-Excel Analysis
+Cross-Validation
         ↓
-Pivot Tables & Charts
-        ↓
-Interactive Dashboard
+Dashboard & Visualization
         ↓
 Business Insights
 ```
 
-## SQL Server Analysis
+------------------------------------------------------------------------
 
-The raw pizza sales data was imported into SQL Server and analyzed using SQL queries.
+## 🗄️ SQL Server Analysis
 
-The queries cover:
+The SQL analysis was designed around the client's KPI and chart
+requirements.
 
-- Aggregations using `SUM()` and `COUNT()`
-- `COUNT(DISTINCT ...)` for unique orders
-- `GROUP BY` for category and time-based analysis
-- `ORDER BY` for ranking and sorting
-- `TOP 5` for best and worst sellers
-- `DATENAME()` for daily order trends
-- `DATEPART()` for hourly and quarterly analysis
-- `MONTH()` for month-level filtering
-- `CAST()` and `DECIMAL` for controlled numeric formatting
-- Subqueries for percentage-of-sales calculations
+The project includes SQL queries for:
 
-The SQL query results were documented and used to validate the corresponding Excel calculations.
+-   Revenue and order KPIs
+-   Daily order trends
+-   Hourly order trends
+-   Sales by pizza category
+-   Sales by pizza size
+-   Pizza quantities by category
+-   Top 5 best-selling pizzas
+-   Bottom 5 worst-selling pizzas
 
-## Excel Analysis & Dashboard
+### SQL Query File
 
-The Excel workbook contains dedicated sheets for:
+👉 **[View SQL Queries](./SQL/Pizza_Sales_SQL_Queries.sql)**
 
-- Raw Data
-- Pivot Tables & Analysis
-- KPI calculations
-- Interactive Dashboard
+### SQL Analysis Report
 
-The dashboard includes a timeline/month filter so users can explore the 2015 sales data across different periods.
+👉 **[View SQL Server Analysis
+Report](./Reports/Pizza_Sales_SQL_Queries.pdf)**
 
-## Key Results
+The report contains the SQL queries together with screenshots of the
+corresponding SQL Server outputs.
 
-| KPI | Result |
-|---|---:|
-| Total Revenue | **$817,860** |
-| Average Order Value | **$38.31** |
-| Total Pizzas Sold | **49,574** |
-| Total Orders | **21,350** |
-| Average Pizzas Per Order | **2.32** |
+------------------------------------------------------------------------
 
-## Key Insights
+## 📈 Excel Analysis
 
-- Friday recorded the highest number of orders among the days of the week.
-- Large-size pizzas represented the largest share of sales by pizza size.
-- Classic pizza represented the largest share of sales by pizza category.
-- The analysis identifies the top and bottom performing pizza products based on total pizzas sold.
-- Order activity varies significantly throughout the day, helping identify peak ordering periods.
+The Excel workbook contains the analysis and dashboard components used
+in the project.
 
-## Validation
+👉 **[Open Excel Analysis](./Excel/Pizza_Sales_Analysis.xlsx)**
 
-A key part of this project was validating the Excel analysis against SQL Server results.
+The workbook includes:
 
-The same business requirements were calculated using SQL queries and then compared with the corresponding Excel Pivot Tables/KPI calculations.
+-   Raw data
+-   KPI calculations
+-   Pivot Tables
+-   Trend analysis
+-   Dashboard
+-   Interactive date/month filtering
 
-This provided an additional check that the numbers presented in the dashboard were consistent with the underlying data.
+------------------------------------------------------------------------
 
-## Repository Structure
+## 📊 Interactive Dashboard
 
-```text
+The dashboard provides a visual summary of the main business KPIs and
+sales trends.
+
+![Pizza Sales Dashboard](./Dashboard/Pizza_Sales_Dashboard.png)
+
+### Key KPIs
+
+  KPI                                 Result
+  -------------------------- ---------------
+  Total Revenue                **\$817,860**
+  Average Order Value            **\$38.31**
+  Total Pizzas Sold               **49,574**
+  Total Orders                    **21,350**
+  Average Pizzas Per Order          **2.32**
+
+------------------------------------------------------------------------
+
+## 🔎 Key Insights
+
+Based on the completed analysis:
+
+-   **Friday** recorded the highest number of orders among the days of
+    the week.
+-   The **Large** pizza size generated the highest percentage of sales.
+-   The **Classic** pizza category had the largest share of sales.
+-   The **Classic** category also recorded the highest number of pizzas
+    sold.
+-   **Classic Deluxe** was the top-selling pizza by total quantity sold.
+-   **Brie Carre** was the lowest-selling pizza among the analyzed
+    products.
+-   Order activity was concentrated around the main lunch and evening
+    periods.
+
+------------------------------------------------------------------------
+
+## ✅ Data Validation
+
+One of the important aspects of this project was validating the analysis
+across different tools.
+
+The workflow was:
+
+1.  Define the business requirements.
+2.  Import and analyze the pizza sales data in SQL Server.
+3.  Write SQL queries for each required KPI and chart.
+4.  Capture the SQL Server query outputs.
+5.  Analyze the same data in Excel using Pivot Tables and calculations.
+6.  Compare the SQL Server results with the Excel results.
+7.  Use the validated results in the final dashboard.
+
+This helped ensure that the final KPIs and visualizations were based on
+consistent calculations.
+
+------------------------------------------------------------------------
+
+## 📁 Repository Structure
+
+``` text
 Pizza-Sales-Data-Analysis/
 │
 ├── README.md
@@ -126,34 +201,68 @@ Pizza-Sales-Data-Analysis/
 │   └── Pizza_Sales_SQL_Queries.pdf
 │
 ├── Data/
-│   └── Pizza_Sales_Raw_Data.xlsx
+│   └── Original raw data for pizza.xlsx
 │
 └── Dashboard/
     └── Pizza_Sales_Dashboard.png
 ```
 
-## Dataset
+------------------------------------------------------------------------
 
-The dataset covers **Pizza Sales for 2015** and contains **48,620 records across 12 fields**.
+## 📂 Project Files
 
-Key fields include:
+  --------------------------------------------------------------------------------------------
+  File                                                     Description
+  -------------------------------------------------------- -----------------------------------
+  [Excel Analysis](./Excel/Pizza_Sales_Analysis.xlsx)      Excel workbook containing the
+                                                           analysis and dashboard
 
-- Pizza ID
-- Order ID
-- Quantity
-- Order Date
-- Order Time
-- Unit Price
-- Total Price
-- Pizza Size
-- Pizza Category
-- Pizza Ingredients
-- Pizza Name
+  [SQL Queries](./SQL/Pizza_Sales_SQL_Queries.sql)         SQL Server queries used for the
+                                                           business requirements
 
-## Project Purpose
+  [SQL Analysis                                            SQL queries with SQL Server output
+  Report](./Reports/Pizza_Sales_SQL_Queries.pdf)           screenshots
 
-This project demonstrates an end-to-end **Data Analyst workflow**:
+  [Raw                                                     Original pizza sales dataset
+  Data](./Data/Original%20raw%20data%20for%20pizza.xlsx)   
 
-**Business Requirements → SQL Analysis → Validation → Excel Analysis → Dashboard → Business Insights**
+  [Dashboard Image](./Dashboard/Pizza_Sales_Dashboard.png) Final dashboard preview
+  --------------------------------------------------------------------------------------------
 
-The main focus was not only on producing charts, but on connecting business questions with reliable calculations and clear visual communication.
+------------------------------------------------------------------------
+
+## 📌 Dataset
+
+The dataset contains **48,620 records** across **12 original fields**
+and covers pizza sales transactions from **2015**.
+
+The data was used to analyze:
+
+-   Orders
+-   Pizza quantities
+-   Revenue
+-   Order dates and times
+-   Pizza categories
+-   Pizza sizes
+-   Pizza names
+
+------------------------------------------------------------------------
+
+## 💡 Project Purpose
+
+The main objective of this project was to demonstrate an end-to-end
+**Data Analyst workflow**:
+
+> **Business Requirements → SQL Analysis → Data Validation → Excel
+> Analysis → Visualization → Dashboard → Business Insights**
+
+The project demonstrates practical skills in **SQL Server, Excel, KPI
+analysis, data validation, business-oriented analysis, and dashboard
+development**.
+
+------------------------------------------------------------------------
+
+## 🔗 Connect With Me
+
+**LinkedIn:** [Tawfiq
+Ayman](https://www.linkedin.com/in/tawfiq-ayman-a79a023b9)
