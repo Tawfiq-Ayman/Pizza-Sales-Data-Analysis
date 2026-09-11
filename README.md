@@ -1,10 +1,3 @@
-نعم أخوي، **الجزء الذي كتبته في البداية ليس كاملًا**؛ هو انقطع عند نهاية `Project Workflow`، وبعده كان المفروض تكملة باقي الأقسام.
-
-والنص الطويل الذي وضعته بعده هو **باقي الـREADME**، لكن فيه مشكلة ثانية: أنت نسخت بعض الأشياء من نسخة GitHub بعد أن قام GitHub/التحويل بتشويه صيغة الـMarkdown، خصوصًا الروابط والجداول.
-
-إذا بدك **كود `README.md` كامل فقط، جاهز Copy/Paste من أول سطر لآخر سطر**، فهذا هو:
-
-````markdown
 # 🍕 Pizza Sales Data Analysis
 
 An end-to-end **Pizza Sales Data Analysis** project using **SQL Server** and **Microsoft Excel** to analyze sales performance, identify business trends, validate results, and build an interactive dashboard.
